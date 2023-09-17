@@ -2,11 +2,11 @@
 
 **Project Name:** 3D Coal Mine Transportation Visualization
 
-**Date:** September 17, 2023 06:00:00 AM
+**Date:** September 17, 2023 10:09 AM
 
 ## Overview
 
-This status report provides an update on the progress of updating our GitHub repository for the "3D Coal Mine Transportation Visualization" project. The purpose of this update is to ensure that the repository contains up-to-date README files and essential base files for the project. It also highlights the latest developments, including the live map with road path highlights, socket connection for real-time transport route data and time tracking, the completion of the dashboard with various features, and the addition of mine boundary designs. Please note that backend integration for the dashboard is pending.
+This status report provides an update on the progress of updating our GitHub repository for the "3D Coal Mine Transportation Visualization" project. The purpose of this update is to ensure that the repository contains up-to-date README files and essential base files for the project. It also highlights the latest developments, including the loading of 3D models onto the map, the completion of the dashboard with data and graphs, and identifies pending tasks related to dynamic movements of 3D assets on the map based on the trip system and the implementation of login authentication logic for the Login page.
 
 ## Completed Tasks
 
@@ -28,6 +28,8 @@ This status report provides an update on the progress of updating our GitHub rep
 
 5. **Mine Boundary Designs:** Completed the development of 3D mine boundary designs within the main project, enhancing the visual representation of mine boundaries.
 
+6. **Loading 3D Models on Map:** Integrated the loading of 3D models onto the map, providing users with a realistic representation of transportation assets within the mine.
+
 ### Admin Dashboard
 
 1. **Dashboard Completion:** The admin dashboard has been completed and now offers a range of features:
@@ -36,29 +38,22 @@ This status report provides an update on the progress of updating our GitHub rep
    - **Vehicle Health Status:** Monitors the health status of vehicles in real time.
    - **Task Pane:** Allows users to manage pending requests and tasks.
    - **Maintenance Reporting:** Provides a section for reporting maintenance issues.
+   - **Data and Graphs:** The dashboard now displays data and graphs for enhanced data analysis.
 
-## Next Steps
+## Pending Tasks
 
 ### Main Project
 
-1. **Data Integration:** Continue working on integrating real-time sensor data from within the coal mines and information from transportation vehicles into the main project. This data will be processed and made available for visualization.
-
-2. **Enhancement:** Continuously improve the project by enhancing 3D visualization, adding more interactivity, and optimizing performance.
-
-3. **Testing and Validation:** Rigorous testing will be conducted to ensure the stability and reliability of the main project.
+1. **Dynamic 3D Asset Movements:** Implement dynamic movements for 3D assets on the map based on the trip system, allowing users to track asset movements in real time.
 
 ### Admin Dashboard
 
-1. **Backend Integration:** Proceed with the backend integration for the dashboard, enabling seamless data exchange between the frontend and backend systems.
-
-2. **Testing and Validation:** The admin dashboard is fully tested and validated to meet usability and functionality requirements.
+1. **Login Authentication Logic:** Develop and implement login authentication logic for the Login page to enhance security and user access control.
 
 ## Challenges
 
 During the update process, we faced some challenges, including:
 
-- **Data Integration Complexity:** Integrating real-time sensor data and GPS information is a complex task that requires careful planning and implementation.
+- **Data Integration Complexity:** Integrating real-time sensor data and information is a complex task that requires careful planning and implementation.
 
 - **Performance Optimization:** Ensuring smooth and efficient 3D visualization can be challenging, especially when dealing with large datasets.
-
-- **Backend Integration:** Integrating the frontend and backend systems can be a challenging task, especially when dealing with complex data.
